@@ -233,12 +233,13 @@ button:active {
   .buttons {
     display: flex;
     flex-direction: row;
-    transform: translate(92px, -5px);
+    transform: translate(92px, -120px);
   }
   .main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
   }
   .slot-machine {
     padding: 15px;
@@ -249,6 +250,26 @@ button:active {
     width: 145px;
     height: 145px;
     font-size: 60px;
+  }
+  #coins {
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    font-size: 30px;
+    min-width: 50px;
+  }
+  .plus- {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 2px;
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+  }
+  #button {
+    transform: translate(10px, 10px);
   }
 }
 @media (min-width: 500px) and (max-width: 530px) {
@@ -482,7 +503,7 @@ button:active {
   .buttons {
     display: flex;
     flex-direction: row;
-    transform: translate(30px, 115px);
+    transform: translate(30px, 25px);
   }
   .main {
     display: flex;
@@ -573,7 +594,7 @@ button:active {
   .buttons {
     display: flex;
     flex-direction: row;
-    transform: translate(30px, 115px);
+    transform: translate(30px,20px);
   }
   .main {
     display: flex;
@@ -663,7 +684,7 @@ button:active {
   .buttons {
     display: flex;
     flex-direction: row;
-    transform: translate(30px, 115px);
+    transform: translate(30px, 1px);
   }
   .main {
     display: flex;
@@ -754,7 +775,7 @@ button:active {
   .buttons {
     display: flex;
     flex-direction: row;
-    transform: translate(15px, 115px);
+    transform: translate(15px, -50px);
   }
   .main {
     display: flex;
@@ -800,7 +821,7 @@ button:active {
     width: 20%;
     display: flex;
     flex-direction: row;
-    transform: translate(35px, 155px);
+    transform: translate(13px, 40px);
   }
   .main {
     display: flex;
@@ -809,23 +830,23 @@ button:active {
   }
   .slot-machine {
     padding: 15px;
-    width: 65%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
     transform: translate(0px, 20px);
   }
   .reel {
-    width: 65px;
-    height: 65px;
-    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
   }
   #coins {
-    height: 10px;
-    margin-top: 70px;
+    height: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
     padding: 10px 40px;
-    font-size: 25px;
+    font-size: 20px;
     min-width: 30px;
     display: flex;
     align-items: center;
@@ -833,11 +854,10 @@ button:active {
     text-align: center;
   }
   .plus- {
-    height: 30px;
-    width: 35px;
-    padding-left: 5px;
+    height: 40px;
+    width: 45px;
     padding-top: 0px;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 25px;
     display: flex;
     align-items: center;
@@ -847,7 +867,7 @@ button:active {
   #button {
     transform: translate(10px, 10px);
     width: 150px;
-    height: 50px;
+    height: 35px;
     padding: 10px 20px;
     font-size: 20px;
   }
@@ -933,7 +953,7 @@ button:active {
     width: 20%;
     display: flex;
     flex-direction: row;
-    transform: translate(13px, 205px);
+    transform: translate(13px, 103px);
   }
   .main {
     display: flex;
@@ -997,7 +1017,7 @@ button:active {
 
 /*Высота*/
 
-@media (min-height: 1000px) and (max-height: 1146px) {
+/*@media (min-height: 1000px) and (max-height: 1146px) {
   .buttons {
     top: 15%;
   }
