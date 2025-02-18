@@ -246,8 +246,8 @@ button:active {
     width: 93%;
   }
   .reel {
-    width: 140px;
-    height: 140px;
+    width: 145px;
+    height: 145px;
     font-size: 60px;
   }
 }
@@ -268,9 +268,9 @@ button:active {
     width: 90%;
   }
   .reel {
-    width: 130px;
-    height: 130px;
-    font-size:60px;
+    width: 135px;
+    height: 135px;
+    font-size: 60px;
   }
 }
 @media (min-width: 497px) and (max-width: 500px) {
@@ -292,8 +292,8 @@ button:active {
     flex-wrap: wrap;
   }
   .reel {
-    width: 105px;
-    height: 105px;
+    width: 110px;
+    height: 110px;
     font-size: 60px;
   }
 }
@@ -318,8 +318,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 90px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     font-size: 60px;
   }
   #coins {
@@ -363,8 +363,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 90px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     font-size: 60px;
   }
   #coins {
@@ -408,8 +408,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -453,8 +453,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -498,8 +498,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -544,8 +544,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -589,8 +589,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -634,8 +634,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -657,7 +657,7 @@ button:active {
   }
   #button {
     transform: translate(10px, 10px);
-  }
+}
 }
 @media (min-width: 384px) and (max-width: 392px) {
   .buttons {
@@ -679,8 +679,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 95px;
-    height: 95px;
+    width: 100px;
+    height: 100px;
     font-size: 60px;
   }
   #coins {
@@ -725,8 +725,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     font-size: 55px;
   }
   #coins {
@@ -770,8 +770,8 @@ button:active {
     transform: translate(0px, 30px);
   }
   .reel {
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     font-size: 55px;
   }
   #coins {
@@ -809,82 +809,15 @@ button:active {
   }
   .slot-machine {
     padding: 15px;
-    width: 70%;
+    width: 65%;
     height: 60%;
     display: flex;
     flex-wrap: wrap;
-    transform: translate(0px, 50px);
+    transform: translate(0px, 20px);
   }
   .reel {
-    width: 70px;
-    height: 70px;
-    font-size: 50px;
-  }
-  #coins {
-    height: 10px;
-    margin-top: 90px;
-    margin-bottom: 20px;
-    padding: 10px 40px;
-    font-size: 30px;
-    min-width: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .plus- {
-    height: 30px;
-    width: 30px;
-    padding-left: 5px;
-    padding-top: 0px;
-    margin-top: 70px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  #button {
-    transform: translate(10px, 10px);
-    width: 150px;
-    height: 50px;
-    padding: 10px 20px;
-    font-size: 20px;
-  }
-  .btn {
-    height: 30px;
-    width: 30px;
-    font-size: 8px;
-  }
-  .balance {
-    align-items: center;
-    width: 25%;
-  }
-}
-
-@media (min-width: 358px) and (max-width: 365px) {
-  .buttons {
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    transform: translate(26px, 185px);
-  }
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .slot-machine {
-    padding: 15px;
-    width: 63%;
-    height: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    transform: translate(0px, 50px);
-  }
-  .reel {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     font-size: 40px;
   }
   #coins {
@@ -901,7 +834,7 @@ button:active {
   }
   .plus- {
     height: 30px;
-    width: 30px;
+    width: 35px;
     padding-left: 5px;
     padding-top: 0px;
     margin-top: 60px;
@@ -925,7 +858,7 @@ button:active {
   }
   .balance {
     align-items: center;
-    width: 15%;
+    width: 25%;
   }
 }
 @media (min-width: 350px) and (max-width: 358px) {
@@ -949,8 +882,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     font-size: 35px;
   }
   #coins {
@@ -1016,8 +949,8 @@ button:active {
     transform: translate(0px, 50px);
   }
   .reel {
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     font-size: 35px;
   }
   #coins {
@@ -1159,8 +1092,8 @@ button:active {
     transform: translate(0px, 10px);
   }
   .reel {
-    width: 145px;
-    height: 145px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1211,8 +1144,8 @@ button:active {
     transform: translate(0px, 10px);
   }
   .reel {
-    width: 117px;
-    height: 117px;
+    width: 122px;
+    height: 122px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1264,8 +1197,8 @@ button:active {
     transform: translate(0px, 10px);
   }
   .reel {
-    width: 100px;
-    height: 100px;
+    width: 105px;
+    height: 105px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1320,8 +1253,8 @@ button:active {
     transform: translate(0px, 10px);
   }
   .reel {
-    width: 85px;
-    height: 85px;
+    width: 90px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
